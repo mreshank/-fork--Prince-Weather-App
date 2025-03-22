@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+
+            <div class="search-bar">
+            <input type="text" id="search" placeholder="Search">
+            <img src="./icons/search.svg" alt="search_icon" class="search-icon search-btn">
+            </div>
+
+            <div class="display-weather">
+                <img src="./icons/cloudygif.gif" alt="Weather-image">
+                <div class="temp-values">
+                    <p id="temperature">24<sup>o</sup>c</p>
+                    <p id="place">London</p>
+                </div>
+            </div>
+
+            <div class="additional-details">
+                <span id="water-details">
+                    <span id="water-icon">
+                        <img src="./icons/water.svg" alt="water_icon" height="70%">
+                    </span>
+                    <span id = "humidity">
+                        <p id="humidity-value" class="additional-values">64%
+                         
+                        </p>
+                        <span class="sub-heading">Humidity</span>
+                        
+                    </span>
+                </span>
+
+                <span id="wind-details">
+
+                <span id="wind-icon">
+                    <img src="./icons/wind.svg" alt="wind_icon" height="70%">
+                </span>
+
+                <span id="wind-speed">
+                    <p id="wind-speed-value" class="additional-values">18 km/h</p>
+                    <span class="sub-heading">Wind Speed</span>   
+                </span>
+           
+                </span>
+
+            </div>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

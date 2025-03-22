@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: popins , sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #190e79; */
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    width: 25%;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(to bottom right, #4812da, #362f99);
+    border: 10px solid #080240;
+}
+
+.search-bar{
+    display: flex;
+    height: 9%;
+    width: 80%;
+    justify-content: space-between;
+    gap: 3%;
+}
+
+#search{
+    padding: 5%;
+    border-radius: 30px;
+    border: none;
+    flex-grow: 2;
+}
+
+.search-icon{
+    background-color: white;
+    border-radius: 100%;
+    padding: 4%;
+    cursor: pointer;
+}
+
+.display-weather{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   height: 50%;
+
+   p{
+    text-align: center;
+   }
+   img{
+    width: 140px; 
+    height: 130px;
+    border-radius: 10px;
+    object-fit: cover;
+   }
+   #temperature{
+    font-size: 50px;
+   }
+   #place{
+    font-size: 30px;
+   }
+}
+
+.additional-details{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+   
+}
+
+#water-details{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+}
+
+#wind-details{
+    display: flex;
+    width: 40%;   
+    justify-content: center;
+}
+.additional-values{
+    font-size: 22px;  
+}
+
+.sub-heading{
+    font-size: 15px;
+}
