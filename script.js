@@ -27,7 +27,7 @@ function fahrenheitToCelsius(fahrenheit) {
     return ((fahrenheit - 32) * 5/9).toFixed(1);
 }
 
-searchBtn[0].addEventListener('click' , (e)=>{
+searchBtn.addEventListener('click' , (e)=>{
     e.preventDefault()
     operation(e)
 })
