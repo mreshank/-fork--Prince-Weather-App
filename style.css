@@ -22,11 +22,17 @@
     justify-content: space-around;
     align-items: center;
     height: 70%;
-    width: 25%;
+    min-width: 25%;
     border-radius: 10px;
     color: white;
     background: linear-gradient(to bottom right, #4812da, #362f99);
     border: 10px solid #080240;
+}
+@media screen and (max-width: 768px){
+    .main{
+        width: 80%;
+    }
+    
 }
 
 .search-bar{
